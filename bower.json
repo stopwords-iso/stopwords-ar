@@ -1,0 +1,21 @@
+{
+  "name": "stopwords-ar",
+  "description": "The most comprehensive collection of stopwords for the arabic language.",
+  "keywords": [
+    "arabic",
+    "stopwords",
+    "stop words"
+  ],
+  "homepage": "https://github.com/stopwords-iso/stopwords-ar",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "stopwords-ar.json",
+  "ignore": [
+    "**/.*",
+    "raw",
+    "node_modules",
+    "bower_components"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "stopwords-ar",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "The most comprehensive collection of stopwords for the arabic language.",
+  "keywords": [
+    "arabic",
+    "stopwords",
+    "stop words"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/stopwords-iso/stopwords-ar",
+  "bugs": "https://github.com/stopwords-iso/stopwords-ar/issues",
+  "main": "stopwords-ar.json",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "stopwords-collator -s raw -o stopwords-ar",
+    "test": "npm run build && jsonlint stopwords-ar.json -q"
+  },
+  "devDependencies": {
+    "stopwords-collator": "*",
+    "jsonlint": "1.6.x"
+  }
+}
